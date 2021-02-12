@@ -33,6 +33,7 @@ test("form shows success message on submit with form details", () => {
     userEvent.type(zipInput, '52405');
     
     const button = screen.getByRole('button', {name: /checkout/i});
+    
     expect.objectContaining({
         'firstName': 'Alex',
         'lastName': 'Wallander',
