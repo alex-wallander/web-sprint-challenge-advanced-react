@@ -9,6 +9,7 @@ state = {
   // when the component mounts:
   //   - fetch data from the server endpoint - http://localhost:3333/plants
   //   - set the returned plants array to this.state.plants
+  // test for push
 
   componentDidMount() {
     axios
