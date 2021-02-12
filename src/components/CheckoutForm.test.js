@@ -27,7 +27,7 @@ test("form shows success message on submit with form details", () => {
 
     userEvent.type(firstNameInput, 'Alex');
     userEvent.type(lastNameInput, 'Wallander');
-    userEvent.type(addressInput, '1234 Lulaby Lane');
+    userEvent.type(addressInput, '136 Janice Dr NW');
     userEvent.type(cityInput, 'Cedar Rapids');
     userEvent.type(stateInput, 'Iowa');
     userEvent.type(zipInput, '52405');
@@ -36,7 +36,7 @@ test("form shows success message on submit with form details", () => {
     expect.objectContaining({
         'firstName': 'Alex',
         'lastName': 'Wallander',
-        'address': '1234 Lulaby Lane',
+        'address': '136 Janice Dr NW',
         'city': 'Cedar Rapids',
         'state': 'Iowa',
         'zip': '52405',
